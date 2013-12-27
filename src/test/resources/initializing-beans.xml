@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="bean-1" class="b2s.springframework.bean.PausingInitializingBean"/>
+    <bean id="bean-2" class="b2s.springframework.bean.PausingInitializingBean"/>
+    <bean id="bean-3" class="b2s.springframework.bean.PausingInitializingBean"/>
+
+</beans>
